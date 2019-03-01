@@ -87,17 +87,18 @@ ul.menu li a:hover {
     width: 437px;
     padding: 30px;
     padding-right: 130px;
+    margin-left: auto;
 }
 .headline {
     font-family: Montserrat;
     font-style: normal;
     font-weight: normal;
     line-height: 26px;
-    margin-bottom: 85px;
+    margin-bottom: 40px;
     font-size: 28px;
     letter-spacing: 1px;
 }
-.about-box {
+.box-c {
     font-family: Ubuntu;
     font-style: normal;
     font-weight: normal;
@@ -205,7 +206,7 @@ footer {
     min-height: 25px;
     display: block;
     padding: 0 15px;
-    border-bottom: 1px solid #fff;
+
     width: 420px;
     font-family: Ubuntu;
     font-style: normal;
@@ -221,8 +222,9 @@ footer {
     border: none;
     height: 27px;
     display: block;
-    padding: 0 15px;
+    /*padding: 0 15px; */
     width: 90%;
+    border-bottom: 1px solid #fff;
     font-family: Ubuntu;
     font-style: normal;
     color: #fff;
@@ -234,6 +236,10 @@ footer {
 }
 .contact form label:nth-child(3) {
     border: none;
+}
+
+input::placeholder {
+    color: #fff;
 }
 .contact form textarea {
     background: none;
@@ -279,4 +285,30 @@ footer {
 .contact form div.button:hover {
 color: #fff;
 background-color: red;
+}
+.hiring-box {
+    width: 50%;
+}
+.about-img {
+    background: url(../img/about.png) no-repeat;
+    display: block;
+    min-height: 700px;
+}
+.hiring-img {
+    background: url(../img/12.png) no-repeat;
+    background-position: right top;
+    display: block;
+    min-height: 700px;
+}
+.contact-img {
+    background: url(../img/map.png) no-repeat;
+    display: block;
+    min-height: 700px;
+}
+.hiring .box-c {
+    margin: 0;
+    margin-right: auto;
+    box-sizing: border-box;
+    padding-left: 115px;
+    padding-right: 0px;
 }
