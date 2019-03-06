@@ -13,6 +13,9 @@ echo 'Браузер: '.$browser.'<br />';
 
 $tvchannel = $_POST['tvchannel'];
 echo 'Каналы: '.$tvchannel.'<br />';
+var_dump($tvchannel);
+echo '<br />' ;
+
 
 $name_hidden = $_POST['name_hidden'];
 echo 'Секретное поле: '.$name_hidden.'<br />';

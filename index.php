@@ -14,22 +14,28 @@
     <h2>Эта форма отправляет методом POST</h2>
     <form method="post" action="post.php">
         <input type="text" name="name" placeholder="Заголовок письма"/><br />
-        <textarea rows="10" cols="45" name="message"  placeholder="Заголовок письма"></textarea><br />
+        <textarea rows="10" cols="45" name="message"  placeholder="Текст письма"></textarea><br />
 
         <p>Radio</p>
-        <input type="radio" name="browser" value="IE"> Internet Explorer<br />
+        <input type="radio" name="browser" value="Internet Explorer"> Internet Explorer<br />
         <input type="radio" name="browser" value="Opera"> Opera<br />
         <input type="radio" name="browser" value="Firefox"> Firefox<br />
 
         <p>Checkbox</p>
-        <input type="checkbox" name="tvchannel" value="Первый канал" />Первый канал<br />
-        <input type="checkbox" name="tvchannel" value="THT" />ТНТ<br />
-        <input type="checkbox" name="tvchannel" value="Культура" />Культура<br />
+        <input type="checkbox" name="tvchannel[]" checked="checked" value="Первый канал" />Первый канал<br />
+        <input type="checkbox" name="tvchannel[]" checked="checked" value="THT" />ТНТ<br />
+        <input type="checkbox" name="tvchannel[]" checked="checked" value="Культура" />Культура<br />
 
         <input type="hidden" name="name_hidden" value="Negite">
     
         <input type="submit" />        
     </form>
     </div>
+
+</form>
+
+
+
+
 </body>
 </html>
