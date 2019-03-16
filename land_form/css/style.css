@@ -1,0 +1,442 @@
+html {
+    font-family: 'Ubuntu', Tahoma, sans-serif;
+}
+body {
+    font-family: 'Ubuntu', Tahoma, sans-serif;
+    background: #FFFFFF;
+}
+
+
+.content-box {
+    width: 1220px;
+    margin: 0 auto;
+}
+
+header .content-box {
+    height: 85px;
+    display: flex;
+    align-items: center;   
+}
+.header_logo  {
+    color: #141720;
+    font-size: 24px;
+    font-weight: bold;
+    text-decoration: none;
+    margin-left: 28px;
+}
+
+ul.menu {
+    margin-left: auto;
+    padding: 0px;
+    list-style: none;
+    display: inline-flex;
+    justify-content: flex-end; 
+    align-items: center;
+    width: 500px;
+}
+ul.menu li {
+    display: inline;
+    margin: 0 5px;
+}
+ul.menu li a {
+    color: #5D5F65;
+    text-decoration: none;
+    display: block;
+    padding: 10px;
+}
+ul.menu li a:hover {
+    text-decoration: underline;
+    color: black;
+}
+.slider {
+    height: 615px;
+   display: flex;
+   justify-content: center;
+   align-items:center;
+}
+.slider .content-box {
+
+}
+.slider div {
+    font-family: Montserrat, Tahoma, sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    line-height: 54px;
+    font-size: 44px;
+    text-align: center;
+    letter-spacing: 1px;
+}
+.slider span {
+    font-family: Ubuntu;
+    font-style: normal;
+    font-weight: normal;
+    line-height: 60px;
+    font-size: 25px;
+    text-align: center;
+    letter-spacing: 0.5px;
+    color: #5D5F65;    
+}
+.about {
+    background: #141720;
+    display: flex;
+    justify-content: center;
+    align-items:center;
+
+}
+.box-c {
+    width: 437px;
+    padding: 30px;
+    padding-right: 130px;
+    margin-left: auto;
+}
+.headline {
+    font-family: Montserrat, Tahoma, sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    line-height: 26px;
+    margin-bottom: 40px;
+    font-size: 28px;
+    letter-spacing: 1px;
+}
+.box-c {
+    font-family: Ubuntu, Tahoma, sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    line-height: 26px;
+    font-size: 15px;
+    letter-spacing: 0.5px;
+    color: #FFFFFF;
+}
+.service {
+    background: #C4C4C4;
+    height: 676px;
+    padding-top: 139px;
+}
+
+.service .headline {
+    text-align: center;
+    margin-bottom: 78px;
+
+}
+.service .content-box {
+    display: flex;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+}
+.content-box .box {
+    min-width: 340px;
+    max-width: 340px;
+    height: 200px;
+    margin: 0px 30px;
+    margin-bottom: 50px;
+}
+.box .box_title {
+    font-family: Montserrat, Tahoma, sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    line-height: 26px;
+    font-size: 20px;
+    color: #141720;
+}
+.content-box .box img {
+    margin-bottom: 20px;
+
+}
+.box p {
+    font-family: Ubuntu, Tahoma, sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    line-height: 26px;
+    font-size: 15px;
+    letter-spacing: 0.5px;
+    color: #5D5F65;
+}
+.hiring {
+    background: #141720;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.hiring .headline {
+    font-family: Montserrat, Tahoma, sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    line-height: 26px;
+    font-size: 28px;
+    letter-spacing: 1px;
+    color: #fff;
+}
+.hiring p{
+    font-family: Ubuntu, Tahoma, sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    line-height: 26px;
+    font-size: 15px;
+    letter-spacing: 0.5px;
+    color: #FFFFFF;
+}
+footer {
+    background: #141720;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.contact {
+    width: 437px;
+    padding: 30px;
+    padding-right: 130px;
+}
+.contact .headline {
+    font-family: Montserrat, Tahoma, sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    line-height: 26px;
+    font-size: 28px;
+    letter-spacing: 1px;
+    color: #fff;
+}
+
+.contact form {
+    border-bottom: 1px solid #fff;
+    padding-bottom: 15px;
+}
+.contact form label {
+    background: none;
+    border: none;
+    min-height: 25px;
+    display: block;
+    padding: 0 15px;
+
+    width: 420px;
+    font-family: Ubuntu, Tahoma, sans-serif;
+    font-style: normal;
+    color: #fff;
+    font-weight: normal;
+    margin-bottom: 33px;
+    line-height: 26px;
+    font-size: 15px;
+    letter-spacing: 0.5px;
+}
+.contact form label input {
+    background: none;
+    border: none;
+    height: 27px;
+    display: block;
+    width: 90%;
+    border-bottom: 1px solid #fff;
+    font-family: Ubuntu;
+    font-style: normal;
+    color: #fff;
+    font-weight: normal;
+    line-height: 26px;
+    font-size: 15px;
+    letter-spacing: 0.5px;   
+}
+.contact form label:nth-child(3) {
+    border: none;
+}
+
+input::placeholder {
+    color: #fff;
+}
+.contact form textarea {
+    background: none;
+    border: none;
+    height: 27px;
+    padding: 0 15px;
+    width: 420px;
+    font-family: Ubuntu, Tahoma, sans-serif;
+    font-style: normal;
+    color: #fff;
+    font-weight: normal;
+    resize: none;
+    margin-bottom: 33px;
+    line-height: 26px;
+    font-size: 15px;
+    height: 140px;
+    letter-spacing: 0.5px; 
+}
+
+.contact form div.button {
+    width: 170px;
+    height: 50px;
+    border-radius: 24px;
+    display: block;
+    background: #C71222;
+    margin-left:auto;
+    border: #C71222;
+    font-family: Ubuntu, Tahoma, sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    text-align: center;
+    color: #fff;
+    line-height: 50px;
+    font-size: 15px;
+    letter-spacing: 0.1875px;
+    color: #FFFFFF;
+
+}
+.contact form div.button:hover {
+color: #fff;
+background-color: red;
+}
+.hiring-box {
+    width: 50%;
+}
+.about-img {
+    background: url(../img/about.png) no-repeat;
+    display: block;
+    min-height: 700px;
+}
+.hiring-img {
+    background: url(../img/12.png) no-repeat;
+    background-position: right top;
+    display: block;
+    min-height: 700px;
+}
+.contact-img {
+    background: url(../img/map.png) no-repeat;
+    display: block;
+    min-height: 700px;
+}
+.hiring .box-c {
+    margin: 0;
+    margin-right: auto;
+    box-sizing: border-box;
+    padding-left: 115px;
+    padding-right: 0px;
+}
+content {
+    background: #141720;
+
+}
+content {
+    background: #141720;
+    display: block;
+    padding: 100px 0px;
+}
+content .contact {
+    margin: 0 auto;
+    padding:  0px;
+
+}
+content .contact .headline {
+    text-align: center;
+
+}
+.gallery {
+    width: 90%;
+    margin: 0 auto;
+    padding: 10px;
+    column-count: 4;
+    column-gap: 0;
+}
+.gallery a {
+    display: block;
+    break-inside: avoid;
+    width: 100px;
+    height: 100px;
+    margin-bottom: 10px;
+}
+.gallery img {
+    width: 100px;
+    height: 100px;
+}
+.time-demo {
+    padding-left: 144px;
+}
+
+.time-demo .data, .time-demo .text {
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: bold;
+    line-height: 26px;
+    font-size: 16px;
+    color: #000;
+}
+.time-demo .data {
+    color: #D4D4D4;
+}
+.active .data {
+    color: #C71222;
+}
+.active .circle {
+    border-color: #C71222;
+}
+.timeline .content-box {
+    display: flex;
+}
+.timeline-data {
+}
+.timeline-box {
+    width: 50%;
+}
+.timeline-text {
+    margin: 0;
+    margin-right: 0px;
+    margin-right: auto;
+    box-sizing: border-box;
+    padding-left: 115px;
+    padding-right: 0px;
+    padding-top: 148px;
+    padding-bottom: 148px;
+}
+.timeline-data div {
+    display: inline-block;
+    margin: 3px;
+    
+}
+.circle {
+    height: 50px;
+    width: 50px;
+    border-radius: 13px;
+    border-box: 3px solid rgb(255, 7, 7);
+    background-image: linear-gradient(to top ,black, black);
+    background-size: 100% 3px;
+    background-position: top center 3px;
+    background-repeat: no-repeat;
+}
+.event {
+    display: flex;
+    align-items: flex-end;
+    margin-bottom: 3px;
+    font-size: 16px;
+    box-sizing: border-box;
+  }
+  .event:hover .event__title {
+    transform: translate(10px, 0);
+  }
+  .event:hover .event__pin::before {
+    transform: scale(1.2);
+  }
+  .event *,
+  .event *::before {
+    box-sizing: inherit;
+  }
+  .event__date, .event__title {
+    padding: 0 0.5rem;
+  }
+  .event__date {
+    text-align: right;
+  }
+  .event__title {
+    transition: transform 0.15s ease;
+  }
+  .event__pin {
+    padding-top: calc(20px * 3);
+    background-image: linear-gradient(to right, red 0, red 4px, transparent 0);
+    background-size: 4px 100%;
+    background-repeat: repeat-y;
+    background-position: center bottom;
+  }
+  .event__pin::before {
+    content: " ";
+    display: block;
+    width: 18px;
+    height: 18px;
+    border-radius: 50%;
+    border: 3px solid red;
+    background-color: #fff;
+    box-shadow: 0 0 0 3px #fff;
+    transition: transform 0.15s ease;
+  }
