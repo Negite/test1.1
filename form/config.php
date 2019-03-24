@@ -4,6 +4,5 @@ $db_host = 'localhost';
 $db_user = 'root'; // Логин БД
 $db_password = ''; // Пароль БД
 $db_base = 'form'; // Имя БД
-
-mail("negite@mail.ru", "$name", "$message", "From: negite@yandex.ru");
+$mail_recipient = 'negite@yandex.ru' // email получателя
 ?>
